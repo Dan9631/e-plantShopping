@@ -271,6 +271,15 @@ function ProductList({ onHomeClick }) {
         return addedToCart[name]
     };
 
+    useEffect(() => {
+        const flags = {};
+        
+        cart.forEach(item => {
+          flags[item.name] = true;
+        });
+      
+        setAddedToCart(flags);
+      }, [cart]);
 
     return (
         <div>
