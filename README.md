@@ -18,8 +18,7 @@ This project demonstrates core front-end development skills such as component-ba
 
 ## 🚀 Live Demo
 
-🔗 *Add your GitHub Pages link here*  
-Example: `https://github.com/Dan9631/e-plantShopping`
+ `https://dan9631.github.io/e-plantShopping`
 
 ---
 
